@@ -10,5 +10,5 @@ public class Foo {
         long myLong;
         float myFloat;
         double myFirstDouble, mySecondDouble;
-    }
+     }
 }

@@ -18,7 +18,7 @@ public class Var {
         // Yes, you can name your LVTI variable "var"
         var var = new ArrayList<String>(Arrays.asList("one", "two", "three"));
  
-        // And yes, you can name your method var...
+        //  And yes, you can name your method var...
         var(var);
  
     }

@@ -65,7 +65,7 @@ public class StringSpliceAndDice {
         // The second parameter is a limit, We tell the method we only want
         // 2 array elements as the result...
         splitWords = sentence.split(" ", 2);
-        System.out.println(Arrays.toString(splitWords));
+         System.out.println(Arrays.toString(splitWords));
 
 
     }

@@ -13,7 +13,7 @@ public class AClassWithAVeryLongName {
  
     }
  
-    public String getName() {
+    public  String getName() {
         return name;
     }
  

@@ -8,6 +8,6 @@ public class SippedFoo3 {
 		System.out.println("f4 = " + f4);
 		System.out.println("d4 = " + d4);
 
-	}
+	 }
 
 }

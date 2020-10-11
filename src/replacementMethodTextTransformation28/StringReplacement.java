@@ -14,9 +14,9 @@ public class StringReplacement {
         String mississippi = "Mississippi";
         String[] resultArray = new String[4];
 
-        // Example of: replace(char oldChar, char newChar)
-        // Returns a String
-        resultArray[0] = "Replace s with S : " + mississippi.replace('s', 'S');
+         // Example of: replace(char oldChar, char newChar)
+         // Returns a String
+         resultArray[0] = "Replace s with S : " + mississippi.replace('s', 'S');
 
         // Example of: replace(CharSequence target, CharSequence replacement)
         // Returns a String

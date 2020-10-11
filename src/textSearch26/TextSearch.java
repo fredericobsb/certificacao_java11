@@ -75,7 +75,7 @@ public class TextSearch {
         System.out.println(mississippi.regionMatches(2, "miss", 1, 3));
 
         // Look for "iss" starting at index 4 in mississippi,
-        // match found
+         // match found
         System.out.println(mississippi.regionMatches(4, "miss", 1, 3));
     }
 }

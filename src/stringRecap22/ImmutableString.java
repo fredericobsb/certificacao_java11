@@ -11,7 +11,7 @@ public class ImmutableString {
  
     public static void main(String[] args) {
  
-        //  "Hello" exists on the string pool, s1 gets a reference to it
+         //  "Hello" exists on the string pool, s1 gets a reference to it
         String s1 = "Hello";  
  
         /*

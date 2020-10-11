@@ -10,7 +10,7 @@ Sub-Topic: Widening
 public class WideningExample {
     public static void main(String[] args) {
  
-        char myChar = 'a';  // this is integer value 97
+         char myChar = 'a';  // this is integer value 97
  
         byte myByte = 0;   // remember this is narrowing.  0 is an int narrowed to a byte.
         short myShort;

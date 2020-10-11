@@ -7,12 +7,13 @@ Topic: Create and Manipulate Strings
 Sub-Topic:  Counting String Objects
 */
 
+
 public class StringCount {
     public static void main(String[] args) {
 
         String stringOriginal = "aaabbb";
 
-        // The behavior is the same for all the replace methods,
+        //  The behavior is the same for all the replace methods,
         // if there is no match, a new String object is NOT created.
         String stringReplaced = stringOriginal.replace('C', 'a');
         System.out.println("1.  stringOriginal==stringReplaced = " +

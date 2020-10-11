@@ -9,7 +9,7 @@ public class Snippet5Foo2 {
 		 
 		System.out.println("b5 = " + b5);
 		System.out.println("c5 = " + c5);
-		System.out.println("d5 = " + d5);
+		 System.out.println("d5 = " + d5);
 	}
 
 }

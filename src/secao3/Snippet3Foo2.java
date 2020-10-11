@@ -10,7 +10,7 @@ public class Snippet3Foo2 {
 		System.out.println("s4 = " + s4);
 		 
 		int i4 = 0x007F; // hexidecimal 127 - hex prefix 0x
-		System.out.println("i4 = " + i4);
+	    	System.out.println("i4 = " + i4);
 
 	}
 

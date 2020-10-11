@@ -10,7 +10,7 @@ Sub-Topic: Initialization of primitive data type variables - including default v
 public class FooBar {
     public static void main(String[] args) {
 
-        int p;  // p is an uninitialized local variable here
+         int p;  // p is an uninitialized local variable here
 
         boolean myBoolean = true;
 

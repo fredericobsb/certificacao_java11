@@ -10,7 +10,7 @@ Sub-Topic: Narrowing
 public class NarrowExampleComplete {
     public static void main(String[] args) {
 
-        // First lets print out some ranges:
+        //  First lets print out some ranges:
         System.out.println("A byte has a range of " + Byte.MIN_VALUE + " to " + Byte.MAX_VALUE);
 
         // We'll show character ranges both as unicode ranges and int ranges

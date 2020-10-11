@@ -2,7 +2,7 @@ package certificacao_java11.classes;
 
 public class ClassWithLongName {
 
-	String name;
+	String  name;
 	
 	public ClassWithLongName() {
 		

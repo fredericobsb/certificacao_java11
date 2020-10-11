@@ -10,7 +10,7 @@ Sub-Topic: Initializing Primitive Data Variables to literals
 public class FooComplete2 {
     public static void main(String[] args) {
 
-        // You can set all of the numeric primitive data variables to a literal number
+         // You can set all of the numeric primitive data variables to a literal number
         // from 0 to 127.
         byte b = 127;
         char c = 127;

@@ -10,7 +10,7 @@ public class FooComplete {
 	*/
     public static void main(String[] args) {
 
-        // Declaration of local variables, local to the main method
+         // Declaration of local variables, local to the main method
         boolean myBoolean;
         byte myByte;
         char myFirstChar, mySecondChar;

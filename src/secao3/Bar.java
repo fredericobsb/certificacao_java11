@@ -9,8 +9,8 @@ Sub-Topic: Initialization of primitive data type variables - including default v
  
 public class Bar {
     // Default values for numeric static variables set to a representation of 0
-    static byte staticBarByte;
-    static char staticBarChar;
+     static byte staticBarByte;
+     static char staticBarChar;
     static short staticBarShort;
     static int staticBarInt;
     static long staticBarLong;

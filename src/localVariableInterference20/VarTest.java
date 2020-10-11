@@ -13,7 +13,7 @@ public class VarTest {
         System.out.println(aClassWithAVeryLongName);
 
         // Adding some other var declarations:
-        // i is inferred to be an int, since it's assigned a literal int
+        //  i is inferred to be an int, since it's assigned a literal int
         var i = 1;
 
         // An array can be assigned to an LVTI variable

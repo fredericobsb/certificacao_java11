@@ -10,7 +10,7 @@ public class Snipet3FooBar {
 		    u = v++;
 		    break;
 		}
-		System.out.println("u is " + u);   // u is now fully initialized
+		 System.out.println("u is " + u);   // u is now fully initialized
 
 	}
 

@@ -10,7 +10,7 @@ public class SnippetFoo2 {
 		 
 		float f2 = 127f;
 		float f3 = 127F;
-		System.out.println("f2 = " + f2);
+		 System.out.println("f2 = " + f2);
 		System.out.println("f3 = " + f3);
 		 
 		double d2 = 127d;

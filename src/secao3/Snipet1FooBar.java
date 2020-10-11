@@ -7,6 +7,6 @@ public static void main(String[] args) {
 	do {
 	    s = t++;
 	} while (t < 1);
-	System.out.println("s is " + s);   // s is now fully initialized
+	 System.out.println("s is " + s);   // s is now fully initialized
 }
 }

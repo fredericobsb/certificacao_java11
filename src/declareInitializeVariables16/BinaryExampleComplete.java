@@ -10,7 +10,7 @@ Sub-Topic: Out of Ordinary: Binary Literals
 public class BinaryExampleComplete {
     public static void main(String[] args) {
         //  8-bit 'byte' values:
-        byte byte1 = (byte) 0b01111111;  //imprime 127  => 0b + 8 digitos
+        byte byte1 = (byte) 0b01111111;   //imprime 127  => 0b + 8 digitos
         byte byte2 = (byte) 0b10000000;  //imprime -128 => 0b + 8 digitos
         byte byte3 = (byte) 0b00100001; //imprime 33    => 0b + 8 digitos
         

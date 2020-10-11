@@ -9,7 +9,7 @@ public class Snippet6Foo2 {
 		int i7 = 1_000_000;
 		long d7 = 1_000_000L;
 		float f7 = 1_000.000_000f;
-		double l7 = 1.000_0000e10;
+		 double l7 = 1.000_0000e10;
 		 
 		System.out.println("b7 = " + b7);
 		System.out.println("c7 = " + c7);

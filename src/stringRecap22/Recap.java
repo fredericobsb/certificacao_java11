@@ -14,7 +14,7 @@ public class Recap {
  
     public static void EqualLiteralReferences() {
         // String literals automatically interned so all "hello" literals
-        // point to same reference in memory, in the string pool
+         // point to same reference in memory, in the string pool
         String s1 = "hello";
  
         String s2 = "hello";

@@ -12,8 +12,8 @@ public class WidenningExampleComplete {
 
         char myChar = 'a';  // this is integer value 97
 
-        byte myByte = 0;   // remember this is narrowing.  0 is an int narrowed to a byte.
-        short myShort;
+         byte myByte = 0;   // remember this is narrowing.  0 is an int narrowed to a byte.
+         short myShort;
 
         // Exact literal type assignment:
         int myInt = 0;

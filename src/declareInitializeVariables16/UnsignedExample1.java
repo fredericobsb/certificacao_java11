@@ -13,7 +13,7 @@ public class UnsignedExample1 {
         System.out.println("An int has a range of " + Integer.MIN_VALUE + " to " +
                 Integer.MAX_VALUE);//- 2147483648 a 2147483647
  
-        // we are going to purposely overflow our variable in testInt.
+        //  we are going to purposely overflow our variable in testInt.
         // Our value is Integer.MAX_VALUE+3;
         int testInt = (int) (Integer.MAX_VALUE + 3);  // integer overflows by 3
         System.out.println("Casting to an int, value  = " + testInt);

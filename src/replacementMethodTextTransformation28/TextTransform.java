@@ -33,8 +33,8 @@ public class TextTransform {
         String charsToStringPartial = String.valueOf(new char[]{'a', 'b', 'c', 'd', 'e'}, 1, 3);
         String subString = charsToString.substring(1, 3);
 
-        System.out.println("charsToString = " + charsToString);
-        System.out.println("charsToStringPartial = " + charsToStringPartial
+         System.out.println("charsToString = " + charsToString);
+         System.out.println("charsToStringPartial = " + charsToStringPartial
                 + ", subString = " + subString);
 
     }

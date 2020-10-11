@@ -10,7 +10,7 @@ Sub-Topic: Initialization of primitive data type variables - including default v
 public class Bar2 {
     public static void main(String[] args) {
 
-        // define local variables for all primitive data types
+         // define local variables for all primitive data types
         byte mainByte;
         char mainChar;
         short mainShort;

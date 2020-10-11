@@ -110,7 +110,7 @@ public class StringComparison {
         }
     }
 
-    // public int compareToIgnoreCase(String str)
+    //  public int compareToIgnoreCase(String str)
     //  Compares the value of Strings lexicographically ignoring case
     public static void TestCompareToIgnoreCaseMethod(String firstString, String secondString) {
         try {

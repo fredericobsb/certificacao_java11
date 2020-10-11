@@ -8,6 +8,6 @@ public class Snipet4FooBar {
 		while (v < 1) {
 		    u = v++;		 
 		}
-		System.out.println("u is " + u);
+		 System.out.println("u is " + u);
 	}
 }

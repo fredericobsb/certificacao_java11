@@ -12,7 +12,7 @@ public class StringConcat {
         String helloString = "hello";
         String worldString = "world";
 
-        // firstString will be “hello world”, concats 3 literals..
+         // firstString will be “hello world”, concats 3 literals..
         String firstString = helloString + " " + worldString;
         System.out.println("firstString = " + firstString);
 

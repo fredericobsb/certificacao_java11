@@ -23,6 +23,7 @@ public class TestValueOf {
         String shortGeorge2 = String.valueOf(george.toCharArray(), 4, 6);
         System.out.println("shortGeorge2 = " + shortGeorge2);
 
+        
         // The method substring uses offsets,
         // beginning offset (inclusive) and ending offset (exclusive)
         // What happens if we use same parameter values examples above?

@@ -14,8 +14,8 @@ public class NestedScope {
         class locallyDefinedClass {
             {
                 // i from method scope still visible in nested local class
-                System.out.println("value of i BEFORE LOOP  " + i);
-                System.out.println("---------------");
+                 System.out.println("value of i BEFORE LOOP  " + i);
+                 System.out.println("---------------");
 
                 // Because this for loop is within a local class,this is valid
                 for (int i = 0; i < 5; i++) {

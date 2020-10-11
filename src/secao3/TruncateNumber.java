@@ -10,7 +10,7 @@ Sub-Topic: Truncate
 public class TruncateNumber {
     public static void main(String[] args) {
 
-        float myFloat = 123.456f;
+         float myFloat = 123.456f;
         Float myFloatWrapper = new Float(myFloat);
         int myNumber = (int) myFloat;
 

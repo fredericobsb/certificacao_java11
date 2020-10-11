@@ -8,6 +8,7 @@ Sub-Topic: Creating Strings
 */
 public class StringConstructor {
  
+	
     public static void main(String[] args) {
         int alphabet_len = 26;
         char[] alphabet = new char[alphabet_len];

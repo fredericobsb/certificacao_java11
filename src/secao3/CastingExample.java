@@ -10,7 +10,7 @@ Sub-Topic: Casting
 public class CastingExample {
     public static void main(String[] args) {
  
-        // Set up some local variables.  Note that s2 is a short.
+         // Set up some local variables.  Note that s2 is a short.
         short s2;
         int loopIterations = 0;
  

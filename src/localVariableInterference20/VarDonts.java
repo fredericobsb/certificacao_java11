@@ -12,7 +12,7 @@ public class VarDonts {
     static var classVariable = 10;
 //
 //    // Invalid - class instance variables cannot be declared with var
-    var instanceVariable = 20;
+    var  instanceVariable = 20;
 
     public static void main(String[] args) {
     }

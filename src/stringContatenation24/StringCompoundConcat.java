@@ -12,7 +12,7 @@ Sub-Topic: Strings and the Compound Concatenation Operator
 public class StringCompoundConcat {
     public static void main(String[] args) {
 
-        String helloString = "hello";
+         String helloString = "hello";
         String worldString = " world";
 
         // Use the compound concatenator on string literals

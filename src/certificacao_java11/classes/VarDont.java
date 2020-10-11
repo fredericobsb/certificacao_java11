@@ -3,7 +3,7 @@ package certificacao_java11.classes;
 public class VarDont {
 
 	static var classVariable = 10;
-	var instanceVariable = 20;
+	 var instanceVariable = 20;
 	
 	public static void main(String[] args) {
 		
