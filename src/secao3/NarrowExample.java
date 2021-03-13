@@ -30,23 +30,23 @@ public class NarrowExample {
 		short s = 32767;
 		
 		// Implicit narrowing can no longer be done because the literal does not fit the container it is assigned to.
-		byte b1 = 128;
-		char c1 = 65536;
-		short s1 = 32768;
+		byte b1 = (byte) 128;
+		char c1 = (char) 65536;
+		short s1 = (short) 32768;
 		
-		float f2 = 0.0;
+		float f2 =  (float) 0.0;
 		 
-		byte b2 = 0.0; 
-		char c2 = 0.0;
-		short s2 = 0.0;
-		int i2 = 0.0;
-		long l2 = 0.0;
+		byte b2 = (byte) 0.0; 
+		char c2 = (char) 0.0;
+		short s2 = (short) 0.0;
+		int i2 = (int) 0.0;
+		long l2 = (long) 0.0;
 		
 		//snipet4-NarrowExample
 		int myIntVariable = 1;
 		 
-		byte b3 = myIntVariable;
-		char c3 = myIntVariable;
-		short s3 = myIntVariable;
+		byte b3 = (byte) myIntVariable;
+		char c3 = (char) myIntVariable;
+		short s3 = (short) myIntVariable;
     }
 }

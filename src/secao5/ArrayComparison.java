@@ -96,8 +96,10 @@ public class ArrayComparison {
 
         // Interestingly, you do not have to specify the same number of elements.
         System.out.println(" (Arrays.compare(stringArray, 0, 5, stringUnsortedArray, 6, 9)) = "
-                + Arrays.compare(stringArray, 0, 5, stringUnsortedArray, 6, 9));
-
+                + Arrays.compare(stringArray, 0, 5, stringUnsortedArray, 6, 9));      
+        
+        
+        
         System.out.println("\n------------- List.equals ------------");
         System.out.println(" (firstList.equals(secondList)) = "
                 + firstList.equals(secondList));
