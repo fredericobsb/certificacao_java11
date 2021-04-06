@@ -12,7 +12,9 @@ package exame1_udemy;
 public class Questao10 {
 	public static void main(String[] args) {
         /*INSERT*/
-		char day = '3'; //esse sim.
+		//char day = '3'; //esse sim.
+		//case '3' can easily be compared with int value but not with Integer type. 
+		int day = '3';
         switch(day) {
             case '3':
                 System.out.println("BUY 2 GET 1 FREE");

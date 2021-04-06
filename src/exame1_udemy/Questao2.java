@@ -7,5 +7,9 @@ public class Questao2 {
         String world = "World";
         java += world;
         System.out.println(java == javaworld);
+        //curiosidade:
+        System.out.println(java.equals(javaworld));
     }
 }
+//imprime o que?
+

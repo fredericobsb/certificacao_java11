@@ -1,6 +1,7 @@
 package exame1_udemy;
 
 public interface Flyable {
+	
     static int horizontalDegree() { //Line n1
         return 20;
     }

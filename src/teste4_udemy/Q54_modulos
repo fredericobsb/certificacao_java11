@@ -1,0 +1,66 @@
+
+ Given below the directory/file structure on Windows platform:
+Question ID: UK81573172
+
+    C:
+    +---src
+    |   \---messages
+    |       |   module-info.java
+    |       |
+    |       \---com
+    |           \---udayankhattry
+    |               \---ocp1
+    |                       Main.java
+    |                       Test.java
+    |
+    +---bin
+    |   \---messages
+    |       |   module-info.class
+    |       |
+    |       \---com
+    |           \---udayankhattry
+    |               \---ocp1
+    |                       Test.class
+    |                       Main.class
+    |
+    \---jars
+            messages.jar
+
+
+Contents of C:\src\messages\com\udayankhattry\ocp1\Main.java file:
+
+    package com.udayankhattry.ocp1;
+     
+    public class Main {
+        public static void main(String... args) {
+            System.out.println("FOCUS AND WIN");
+        }
+    }
+
+
+Contents of C:\src\messages\com\udayankhattry\ocp1\Test.java file:
+
+    package com.udayankhattry.ocp1;
+     
+    public class Test {
+        public static void main(String... args) {
+            System.out.println("DRILL YOUR SKILLS");
+        }
+    }
+
+
+Contents of C:\src\messages\module-info.java file:
+
+    module messages {
+    }
+
+
+'messages.jar' file was created by executing below command from C:\
+
+C:\>jar -cfe jars\messages.jar com.udayankhattry.ocp1.Test -C bin\messages .
+
+
+Which of the following commands, if executed from C:\, displays FOCUS AND WIN on to the console?
+
+Select 2 options. 
+

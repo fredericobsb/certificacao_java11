@@ -1,0 +1,76 @@
+Question ID: UK81539065
+
+
+Given below the directory/file structure on Windows platform:
+
+    C:
+    +---src
+    |   |   [POSITION-1]
+    |   |
+    |   \---office
+    |       |   [POSITION-2]
+    |       |
+    |       \---com
+    |           |   [POSITION-3]
+    |           |
+    |           \---xyz
+    |               +---hr
+    |               |   |   Hiring.java
+    |               |   |   [POSITION-4]
+    |               |   |
+    |               |   \---training
+    |               |           JavaTraining.java
+    |               |           [POSITION-5]
+    |               |
+    |               \---projects
+    |                       JavaProject.java
+    |
+    \---cls
+
+
+[POSITION-1], [POSITION-2], [POSITION-3], [POSITION-4], [POSITION-5] are possible place holders for module-info.java file.
+
+
+Below are the file details:-
+
+
+C:\src\office\com\xyz\hr\Hiring.java:
+
+    package com.xyz.hr;
+     
+    public class Hiring {
+        //Lots of valid codes
+    }
+
+
+C:\src\office\com\xyz\hr\training\JavaTraining.java:
+
+    package com.xyz.hr.training;
+     
+    public class JavaTraining {
+        //Lots of valid codes
+    }
+
+
+C:\src\office\com\xyz\projects\JavaProject.java:
+
+    package com.xyz.projects;
+     
+    public class JavaProject {
+        //Lots of valid codes
+    }
+
+
+Contents of module-info.java:
+
+    module office {
+        exports com.xyz.hr.training;
+    }
+
+
+And consider the command to be executed from C:\
+
+javac -d cls --module-source-path src -m office
+
+
+What should be the location of module-info.java file such that above javac command executes successfully?

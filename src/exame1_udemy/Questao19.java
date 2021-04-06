@@ -27,3 +27,15 @@ public class Questao19 {
         System.out.println(s2.side + ":" + s2.getSide());//0:4
     }
 }
+
+/*
+ * Subclass overrides the methods of superclass but it hides the variables of superclass.
+
+Line n3 hides the variable created at Line n1 and Line n4 overrides 
+the getSide() method of Line n2. There is no compilation error for Square class 
+as it correctly overrides getSide() method. 
+You can use any access modifier at Line n3 as well, there are no rules for variable hiding.
+
+'s' is of Shape type, hence s.side equals to 0 and s.getSide() invokes overriding method 
+of Square class and it returns 4. Hence output is: 0:4.
+ * */

@@ -18,3 +18,12 @@ public class Questao24 {
             m('5');
         }
     }
+/*
+ * Method m is overloaded and which overloaded method to invoke, is decided at compile time.
+
+m(i) is tagged to m(int) as i is of int type and m('5') is tagged to m(char) as '5' is char literal.
+
+`m(i);` prints int version on to the console.
+
+`m('5');` prints char version on to the console. 
+ * */
